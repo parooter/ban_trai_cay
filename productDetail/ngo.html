@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="vi" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="../logo/logo_transparent.png" type="image/x-icon" />
+    <title>Ngô</title>
+    <link rel="stylesheet" type="text/css" href="allDetail.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">Hoa Quả Sơn</div>
+      <ul>
+        <li><a href="../Homepage.html">HOME</a></li>
+        <li>
+          <a href="#">Sản Phẩm</a>
+          <ul>
+            <li><a href="../product.html#mienbac">Trái cây miền Bắc</a></li>
+            <li><a href="../product.html#miennam">Trái cây miền Nam</a></li>
+            <li><a href="../product.html#mientrung">Trái cây miền Trung</a></li>
+            <li><a href="../product.html#nhapkhau">Trái cây nhập khẩu</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Dịch vụ</a>
+          <ul>
+            <li><a href="../Login.html">Đăng nhập</a></li>
+            <li><a href="../B2B.html">Hợp tác doanh nghiệp</a></li>
+            <li>
+              <a href="#"
+                >Dịch vụ khác
+                <span class="fa fa-plus"></span>
+              </a>
+              <ul>
+                <li><a href="#">Tuyển dụng</a></li>
+                <li><a href="#">Phiếu mua hàng</a></li>
+                <li><a href="#">Nội quy cửa hàng</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Liên hệ</a></li>
+        <li>
+          <button id="cart">
+            <i class="fa fa-shopping-cart"> Giỏ Hàng </i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="description">
+      <div class="container">
+        <div class="left">
+          <img class="img-prd" src="../img/Ngo.jpg" alt="ngo" />
+        </div>
+        <div class="right">
+          <div class="name">
+            <h1 class="content-product-h1">Ngô</h1>
+          </div>
+          <div class="price">
+            <span class="money">30000 đ</span>
+          </div>
+          <div class="prd-des">
+            <p>
+              Ngô Là loại ngũ cốc phổ biến, bắp thân thuộc với hầu hết mọi gia
+              đình, có thể hợp khẩu vị của bất cứ ai. Chế biến được nhiều món
+              khác nhau, với nhiều cách khác nhau, vừa ngon miệng vừa mang lại
+              nhiều lợi ích cho sức khỏe như: Tăng cường sức khỏe hệ tiêu hóa,
+              hỗ trợ cải thiện hệ tim mạch, tốt cho trí nhớ, giàu khoáng chất,
+              cải thiện tình trạng thiếu máu.
+            </p>
+          </div>
+          <div class="add-to-cart">
+            <input
+              class="quantity"
+              type="number"
+              step="1"
+              min="1"
+              value="1"
+              size="1"
+              pattern="[0-9]*"
+              inputmode="generic"
+            />
+            <button class="add">
+              <i class="fas fa-shopping-basket"></i>Thêm vào giỏ hàng
+            </button>
+            <button class="buy-now">Mua ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <h2>Các sản phẩm tương tự</h2>
+      <div class="container">
+        <div class="product-items">
+          <div class="item">
+            <a href="nho.html"><img src="../img/Nho.jpg" alt="" /></a>
+            <div class="item-text">
+              <p><span>150 000</span><sup>đ</sup></p>
+              <h3 style="font-weight: bold; font-size: 18px">Nho</h3>
+            </div>
+          </div>
+          <div class="item">
+            <a href="tao.html"> <img src="../img/Tao.jpg" alt="" /></a>
+            <div class="item-text">
+              <p><span>35 000</span><sup>đ</sup></p>
+              <h3 style="font-weight: bold; font-size: 18px">Táo</h3>
+            </div>
+          </div>
+          <div class="item">
+            <a href="thanh_long_ruot_do.html"
+              ><img src="../img/ThanhLongRD.jpg" alt=""
+            /></a>
+            <div class="item-text">
+              <p><span>50 000</span><sup>đ</sup></p>
+              <h3 style="font-weight: bold; font-size: 18px">
+                Thanh <br />
+                long ruột đỏ
+              </h3>
+            </div>
+          </div>
+          <div class="item">
+            <a href="tao_xanh.html"><img src="../img/Taoxanh.jpg" alt="" /></a>
+            <div class="item-text">
+              <p><span>20 000</span><sup>đ</sup></p>
+              <h3 style="font-weight: bold; font-size: 18px">Táo xanh</h3>
+            </div>
+          </div>
+          <div class="item">
+            <a href="xoai_tuong.html"
+              ><img src="../img/XoaiTuong.jpg" alt=""
+            /></a>
+            <div class="item-text">
+              <p><span>50 000</span><sup>đ</sup></p>
+              <h3 style="font-weight: bold; font-size: 18px">Xoài tượng</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Giỏ Hàng</h5>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+            <span class="cart-price cart-header cart-column">Giá</span>
+            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+          </div>
+          <div class="cart-items"></div>
+          <div class="cart-total">
+            <strong class="cart-total-title">Tổng Cộng:</strong>
+            <span class="cart-total-price">0 đ</span>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary close-footer">
+            Đóng
+          </button>
+          <button type="button" class="btn btn-primary order">
+            Thanh Toán
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="cart.js"></script>
+    <script
+      src="https://kit.fontawesome.com/419f596ad1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>luugiohang();</script>
+    <footer></footer>
+  </body>
+</html>
