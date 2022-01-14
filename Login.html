@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hoa Quả Sơn-Đăng nhập</title>
+<link rel="icon" href="logo/logo_transparent.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="Login.css">
+</head>
+
+<body>
+	<div class="login-wrapper">
+		<form action="" class="form">
+			<img src="img/avt.png" alt="">
+			<h2>Đăng nhập</h2>
+			<div class="input-group">
+				<input type="text" name="loginUser" id="loginUser" required>
+				<label for="loginUser">Tên đăng nhập</label>
+			</div>
+			<div class="input-group">
+				<input type="password" name="loginPwd" id="loginPwd" required>
+				<label for="loginPwd">Mật khẩu</label>
+			</div>
+			<input type="submit" value="đăng nhập" class="submit-btn"><br/><br/>
+			<a href="#forgot-pwd" class="forgot-pwd">Quên mật khẩu</a> <br/>
+			<a href="#register" class="register">Đăng ký</a>
+		</form>
+		
+		<div id="forgot-pwd">
+			<form action="" class="form">
+				<a href="#" class="close">&times;</a>
+				<h2>Đặt lại mật khẩu</h2>
+				<div class="input-group">
+					<input type="email" name="email" id="email" required>
+					<label for="email">Nhập Email</label>
+				</div>
+				<input type="submit" value="Submit" class="submit-btn">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
