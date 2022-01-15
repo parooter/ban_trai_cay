@@ -405,9 +405,6 @@ footer .container1 .noi-dung.about p {
   flex-direction: row;
   justify-content: flex-end;
   padding: 1rem;
-  position: relative;
-  right: 230px;
-  top: -20px;
 }
 .modal-footer > :not(:first-child) {
   margin-left: 0.25rem;
@@ -586,8 +583,6 @@ h5.modal-title {
 }
 .modal-title {
   color: #ece5e5;
-  position: relative;
-  right: -250px;
 }
 .btn .btn-secondary .close-footer {
   color: #111;
