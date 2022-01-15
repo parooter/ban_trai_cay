@@ -255,6 +255,7 @@
   /* phần giỏ hàng */
   /* modal */
   .modal {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: none;
     position: fixed;
     z-index: 1;
@@ -264,8 +265,8 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgb(250, 245, 245);
+    background-color: rgba(252, 245, 245, 0.4);
   }
   
   .modal-content {
@@ -274,10 +275,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color:#0c0c0cea;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 0.3rem;
+    border: 1px solid rgba(224, 219, 219, 0.747);
+    border-radius: 0.7rem;
     outline: 0;
   }
   
@@ -287,14 +288,11 @@
   
   .modal-footer {
     display: flex;
-    border-top: 1px solid #aaaaaa;
     padding: 1rem;
     flex-direction: row;
     justify-content: flex-end;
-    border-top: 1px solid #aaaaaa;
     padding: 1rem;
   }
-  
   .modal-footer > :not(:first-child) {
     margin-left: 0.25rem;
   }
@@ -315,7 +313,7 @@
   }
   
   .btn-secondary {
-    color: #292b2c;
+    color: #111111;
     background-color: #fff;
     border-color: #ccc;
   }
@@ -330,7 +328,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #aaaaaa;
+    border-bottom: 1px solid #c9c7c7;
     padding: 1rem;
   }
   
@@ -339,7 +337,7 @@
   }
   
   .close {
-    color: #aaaaaa;
+    color: #ec0c0c;
     font-size: 28px;
     font-weight: bold;
     display: flex;
@@ -349,7 +347,7 @@
   
   .close:hover,
   .close:focus {
-    color: #000;
+    color: rgb(26, 25, 25);
     text-decoration: none;
     cursor: pointer;
   }
@@ -359,13 +357,13 @@
   .cart-header {
     font-weight: bold;
     font-size: 1.25em;
-    color: #333;
+    color: rgb(245, 241, 241);
   }
   
   .cart-column {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(241, 238, 238);
     margin-right: 1.5em;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -382,7 +380,7 @@
   .cart-price {
     width: 20%;
     font-size: 1.2em;
-    color: #333;
+    color: rgb(241, 236, 236);
   }
   
   .cart-quantity {
@@ -390,8 +388,8 @@
   }
   
   .cart-item-title {
-    color: #333;
-    margin-left: .5em;
+    color: rgb(245, 237, 237);
+    margin-left: 0.5em;
     font-size: 1.2em;
   }
   
@@ -402,24 +400,25 @@
   }
   
   .btn-danger {
-    color: white;
-    background-color: #EB5757;
+    margin-top: 0;
+    color: rgb(20, 20, 20);
+    background-color: #eb5757;
     border: none;
-    border-radius: .3em;
+    border-radius: 0.3em;
     font-weight: bold;
   }
   
   .btn-danger:hover {
-    background-color: #CC4C4C;
+    background-color: #cc4c4c;
   }
   
   .cart-quantity-input {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid #56ccf2;
     background-color: #eee;
-    color: #333;
+    color: rgb(22, 21, 21);
     padding: 0;
     text-align: center;
     font-size: 1.2em;
@@ -427,7 +426,7 @@
   }
   
   .cart-row:last-child {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(243, 237, 237);
   }
   
   .cart-row:last-child .cart-column {
@@ -435,23 +434,28 @@
   }
   
   .cart-total {
-    text-align: end;
+    text-align: center;
+    padding-bottom: 20px;
     margin-top: 10px;
     margin-right: 10px;
+    border-bottom: 1px solid #f1eaea;
   }
   
   .cart-total-title {
     font-weight: bold;
     font-size: 1.5em;
-    color: black;
+    color: rgb(241, 237, 237);
     margin-right: 20px;
   }
   
   .cart-total-price {
-    color: #333;
+    color: rgb(236, 231, 231);
     font-size: 1.1em;
   }
-  @media only screen and (max-width:1120px){
+  .pad {
+    padding-bottom: 80px;
+  }
+  @media only screen and (max-width:1080px){
     .logo{
       visibility: hidden;
       position: relative;
@@ -464,3 +468,10 @@
       margin: auto;
     }
   }
+  .modal-title {
+    color: #ece5e5;
+  }
+  .btn .btn-secondary .close-footer {
+    color: #111;
+  }
+  
