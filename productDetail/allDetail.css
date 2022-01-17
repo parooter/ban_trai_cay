@@ -147,6 +147,9 @@
     position: relative;
     top: -30px;
   }
+ .right .prd-des p {
+    font-size:20px;	
+  }
   .right .add-to-cart{
     height: 10%;
   }
