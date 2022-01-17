@@ -4,12 +4,12 @@
     box-sizing: border-box;
   }
   body {
-    background: linear-gradient(to bottom, #92f07e , #77c1e6 );
+    background: #f2f2f2;
   }
   /* ------------------------------------------------ */
   /* thanh điều hướng */
   nav {
-    
+    background: green;
     z-index: 1;
     opacity: 0.7;
     position: fixed;
