@@ -7,13 +7,13 @@ Lí do có cái repo này vì để trình chiếu đề tài cho thuận tiện
 - HTML5
 - CSS
 - Javascript 
-- 
+
 ### Các tính năng chính của trang web:
 - Trang web được làm tinh giản, gọn mắt, màu sắc cân đối, hài hòa.
 - 40 trang chi tiết sản phẩm.
 - Giỏ hàng sử dụng Session Storage, cho phép đi qua đi lại giữa các trang web nhưng vẫn giữ được giỏ hàng.
 - Các trang linh tinh lặt vặt khác (liên hệ, đăng nhập,...).
-- 
+
 ### Website được tạo nên bởi:
 - L.P.T.
 - V.M.L.
