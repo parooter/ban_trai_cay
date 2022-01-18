@@ -1,5 +1,5 @@
 # Website bán trái cây #
-Đây là một repo có chứa source code của trang web https://parooter.github.io/ban_trai_cay/Homepage.html
+Đây là một repo có chứa source code của trang web: https://parooter.github.io/ban_trai_cay/Homepage.html
 
 Lí do có cái repo này vì để trình chiếu đề tài cho thuận tiện. 
 
@@ -21,5 +21,5 @@ Lí do có cái repo này vì để trình chiếu đề tài cho thuận tiện
 - T.T.P.
 
 ##### P/s: Đôi lời gửi đến "ai đó":
-1. Website này được build bởi 4 người tụi em, không hề fork từ một cái repo nào khác.
-2. SSCC, peace.
+1. Website này được build bởi 4 người tụi em, không hề fork từ một cái repo nào khác (có đâu mà fork).
+2. Please, SSCC.
